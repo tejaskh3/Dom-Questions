@@ -111,3 +111,156 @@ https://github.com/user-attachments/assets/100ba10c-928e-4341-a899-c3ba2450c36b
    - The active image's indicator should be highlighted
    - Clicking on an indicator should jump to the corresponding image
 
+
+## Question 6: Enhanced Clock
+
+### Demo
+
+https://github.com/user-attachments/assets/1306c917-90bd-472f-ad83-92339f8ddf0e
+
+
+### Requirements 
+Requirements:
+
+1. Digital Clock Display
+   - Application should show current time in hours:minutes:seconds format
+   - Time should update every second
+   - Numbers should be padded with leading zeros (e.g., 01:05:08)
+   - Display should use a clear, readable font
+
+2. Analog Clock Face
+   - Clock should display a circular face with numbers 1-12
+   - Three hands should be present for hours, minutes, and seconds
+   - Each hand should have distinct styling:
+     - Hour hand: shortest and thickest
+     - Minute hand: medium length and thickness
+     - Second hand: longest and thinnest
+   - Center point should be marked with a dot
+
+3. Hand Movement
+   - Second hand should move every second (6 degrees per second)
+   - Minute hand should move smoothly (6 degrees per minute)
+   - Hour hand should account for both hours and minutes in its position
+   - Hands should rotate smoothly without jumping
+
+4. Date Display
+   - Current date should be shown below the clock
+   - Date format should include day, month, and year
+
+
+## Question 7: Accordion
+
+### Demo
+
+https://github.com/user-attachments/assets/d2e76751-36a2-4d22-bcce-ead498cb1695
+
+### Requirements
+
+1. Accordion Structure
+   - Container should display multiple collapsible sections
+   - Each section should have a header and content area 
+   - Only one section should be open at a time
+   - Sections should be visually separated
+
+2. Section Headers
+   - Headers should be clickable buttons
+   - Each header should display:
+     - Section title on the left
+     - Dropdown arrow (▼) on the right
+   - Headers should have hover effects
+   - Arrow should rotate when section is open
+
+3. Content Display
+   - Content should be hidden by default
+   - Content should appear with a fade-in animation
+   - Content should have different styling from headers
+   - Content area should adjust to text length
+
+4. Interaction Behavior
+   - Clicking a closed section should:
+     - Open that section
+     - Close any previously open section
+   - Clicking an open section should:
+     - Close that section
+   - Only one section can be active at a time
+
+
+## Question 8: Simple Shopping Cart
+
+
+### Demo
+
+https://github.com/user-attachments/assets/3d5de91d-cad7-4923-806a-df68c0e2ff53
+
+
+### Requirements:
+
+1. Product Display
+   - Display at least 4 products with:
+     - Product name
+     - Price
+     - "Add to Cart" button
+   - Each product should have a simple image (can use placeholder images)
+
+2. Cart Functionality
+   - Users should be able to:
+     - Add items to cart
+     - Remove items from cart
+     - Adjust quantity of items (increase/decrease)
+   - Cart should show:
+     - List of added items with their quantities
+     - Individual item subtotals
+     - Cart total
+
+
+## Question 9: Sliding Menu
+
+### Demo
+
+https://github.com/user-attachments/assets/5f8400fe-5b84-4b2f-931b-0ab6c3ee728a
+
+### Requirements:
+
+1. Menu Structure
+   - Create slide-out menu panel from right side
+   - Panel should contain at least 4 menu items
+   - Include a clear navigation hierarchy 
+   - Menu panel should have a header/title
+   - Include close button in top right corner
+
+2. Interaction Features
+   - Toggle button to open menu
+   - Close button to dismiss menu
+   - Click on menu items should:
+     - Show which item was clicked through an alert message
+     - Close the menu automatically
+   - Click outside menu should close it
+   - Prevent menu from being partially visible when closed
+
+3. UX
+   - Smooth transitions
+   - No content shifting when menu opens/closes
+   - Clear visual feedback on interactions
+   - Proper cursor indicators for clickable elements
+   - No scrolling issues when menu is open
+
+
+# Question 10: 
+## Question: Interactive Memory Card Game
+
+### Requirements:
+1. Create a memory matching card game where:
+   - Display a 4x4 grid of cards (8 pairs)
+   - Cards should flip when clicked
+   - Match pairs to win
+   - Track moves and time
+
+2. Game Features:
+   - Cards should shuffle on game start
+   - Show victory message when all pairs are matched through a alert message 
+   - Include restart button
+   - Display score based on moves and time taken
+
+3. Emojis(optional)
+   - use any emojis or use below ones 
+   - Use these 8 emojis for the cards: '🐶', '🐱', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼'
